@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32F7C4646A9555FBDB768593 /* libPods-TiledLayerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DDD1367C22E252BF17E892 /* libPods-TiledLayerDemoTests.a */; };
+		59528419D66AA994DA174117 /* libPods-TiledLayerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE8857310CB445B343BA97E /* libPods-TiledLayerDemoUITests.a */; };
+		6AD9EEFB935E4EACDFB38148 /* libPods-TiledLayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C562746FF3A79EF1C58AB2D /* libPods-TiledLayerDemo.a */; };
+		D3378A54228EA1960043752D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3378A53228EA1960043752D /* AppDelegate.m */; };
+		D3378A57228EA1960043752D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3378A56228EA1960043752D /* ViewController.m */; };
+		D3378A5A228EA1960043752D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3378A58228EA1960043752D /* Main.storyboard */; };
+		D3378A5C228EA1980043752D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3378A5B228EA1980043752D /* Assets.xcassets */; };
+		D3378A5F228EA1980043752D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3378A5D228EA1980043752D /* LaunchScreen.storyboard */; };
+		D3378A62228EA1980043752D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3378A61228EA1980043752D /* main.m */; };
+		D3378A6C228EA1980043752D /* TiledLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3378A6B228EA1980043752D /* TiledLayerDemoTests.m */; };
+		D3378A77228EA1980043752D /* TiledLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3378A76228EA1980043752D /* TiledLayerDemoUITests.m */; };
+		D3378A86228EA2770043752D /* large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3378A85228EA2770043752D /* large.jpg */; };
+		D3378A89228EA3310043752D /* TiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3378A88228EA3310043752D /* TiledView.m */; };
+		D3378A8C228EA46F0043752D /* TiledUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D3378A8B228EA46F0043752D /* TiledUtility.m */; };
+		D3378A8F228EAA250043752D /* TiledSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = D3378A8E228EAA250043752D /* TiledSetting.m */; };
+		D38AB455228EB3C3001803F7 /* TiledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38AB454228EB3C3001803F7 /* TiledViewController.m */; };
+		D38AB458228EB40B001803F7 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38AB457228EB40B001803F7 /* NormalViewController.m */; };
+		D3ACBC70228EB97300D1D568 /* china.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3ACBC6F228EB97300D1D568 /* china.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3378A68228EA1980043752D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3378A47228EA1960043752D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3378A4E228EA1960043752D;
+			remoteInfo = TiledLayerDemo;
+		};
+		D3378A73228EA1980043752D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3378A47228EA1960043752D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3378A4E228EA1960043752D;
+			remoteInfo = TiledLayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E29A6AE1D04E60FC0C55442 /* Pods-TiledLayerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledLayerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TiledLayerDemoTests/Pods-TiledLayerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E658B2F2CF7FFED0B493714 /* Pods-TiledLayerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledLayerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TiledLayerDemoUITests/Pods-TiledLayerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4679CC24117E5B923DD69EC2 /* Pods-TiledLayerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledLayerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TiledLayerDemoUITests/Pods-TiledLayerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F5A64E5AE6898C46E5CEE70 /* Pods-TiledLayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledLayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TiledLayerDemo/Pods-TiledLayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		62185C678F710EADCBC574A7 /* Pods-TiledLayerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledLayerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TiledLayerDemoTests/Pods-TiledLayerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C562746FF3A79EF1C58AB2D /* libPods-TiledLayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TiledLayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE8857310CB445B343BA97E /* libPods-TiledLayerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TiledLayerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3378A4F228EA1960043752D /* TiledLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiledLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3378A52228EA1960043752D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3378A53228EA1960043752D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3378A55228EA1960043752D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3378A56228EA1960043752D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3378A59228EA1960043752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3378A5B228EA1980043752D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3378A5E228EA1980043752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3378A60228EA1980043752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3378A61228EA1980043752D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3378A67228EA1980043752D /* TiledLayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiledLayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3378A6B228EA1980043752D /* TiledLayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledLayerDemoTests.m; sourceTree = "<group>"; };
+		D3378A6D228EA1980043752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3378A72228EA1980043752D /* TiledLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiledLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3378A76228EA1980043752D /* TiledLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledLayerDemoUITests.m; sourceTree = "<group>"; };
+		D3378A78228EA1980043752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3378A85228EA2770043752D /* large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large.jpg; sourceTree = "<group>"; };
+		D3378A87228EA3310043752D /* TiledView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledView.h; sourceTree = "<group>"; };
+		D3378A88228EA3310043752D /* TiledView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledView.m; sourceTree = "<group>"; };
+		D3378A8A228EA46F0043752D /* TiledUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledUtility.h; sourceTree = "<group>"; };
+		D3378A8B228EA46F0043752D /* TiledUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledUtility.m; sourceTree = "<group>"; };
+		D3378A8D228EAA250043752D /* TiledSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledSetting.h; sourceTree = "<group>"; };
+		D3378A8E228EAA250043752D /* TiledSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledSetting.m; sourceTree = "<group>"; };
+		D38AB453228EB3C3001803F7 /* TiledViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledViewController.h; sourceTree = "<group>"; };
+		D38AB454228EB3C3001803F7 /* TiledViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledViewController.m; sourceTree = "<group>"; };
+		D38AB456228EB40B001803F7 /* NormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		D38AB457228EB40B001803F7 /* NormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		D3ACBC6F228EB97300D1D568 /* china.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = china.jpg; sourceTree = "<group>"; };
+		D3DDD1367C22E252BF17E892 /* libPods-TiledLayerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TiledLayerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3195480CEE3A4C9BC6ED2CD /* Pods-TiledLayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiledLayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TiledLayerDemo/Pods-TiledLayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3378A4C228EA1960043752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD9EEFB935E4EACDFB38148 /* libPods-TiledLayerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3378A64228EA1980043752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F7C4646A9555FBDB768593 /* libPods-TiledLayerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3378A6F228EA1980043752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59528419D66AA994DA174117 /* libPods-TiledLayerDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0C072F0F01DF4750191E5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C562746FF3A79EF1C58AB2D /* libPods-TiledLayerDemo.a */,
+				D3DDD1367C22E252BF17E892 /* libPods-TiledLayerDemoTests.a */,
+				6EE8857310CB445B343BA97E /* libPods-TiledLayerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CC45067BB6A2B8475D3FF8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F5A64E5AE6898C46E5CEE70 /* Pods-TiledLayerDemo.debug.xcconfig */,
+				F3195480CEE3A4C9BC6ED2CD /* Pods-TiledLayerDemo.release.xcconfig */,
+				62185C678F710EADCBC574A7 /* Pods-TiledLayerDemoTests.debug.xcconfig */,
+				1E29A6AE1D04E60FC0C55442 /* Pods-TiledLayerDemoTests.release.xcconfig */,
+				2E658B2F2CF7FFED0B493714 /* Pods-TiledLayerDemoUITests.debug.xcconfig */,
+				4679CC24117E5B923DD69EC2 /* Pods-TiledLayerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3378A46228EA1960043752D = {
+			isa = PBXGroup;
+			children = (
+				D3378A51228EA1960043752D /* TiledLayerDemo */,
+				D3378A6A228EA1980043752D /* TiledLayerDemoTests */,
+				D3378A75228EA1980043752D /* TiledLayerDemoUITests */,
+				D3378A50228EA1960043752D /* Products */,
+				3CC45067BB6A2B8475D3FF8A /* Pods */,
+				1C0C072F0F01DF4750191E5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3378A50228EA1960043752D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3378A4F228EA1960043752D /* TiledLayerDemo.app */,
+				D3378A67228EA1980043752D /* TiledLayerDemoTests.xctest */,
+				D3378A72228EA1980043752D /* TiledLayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3378A51228EA1960043752D /* TiledLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3378A52228EA1960043752D /* AppDelegate.h */,
+				D3378A53228EA1960043752D /* AppDelegate.m */,
+				D3378A55228EA1960043752D /* ViewController.h */,
+				D3378A56228EA1960043752D /* ViewController.m */,
+				D38AB456228EB40B001803F7 /* NormalViewController.h */,
+				D38AB457228EB40B001803F7 /* NormalViewController.m */,
+				D38AB453228EB3C3001803F7 /* TiledViewController.h */,
+				D38AB454228EB3C3001803F7 /* TiledViewController.m */,
+				D3378A87228EA3310043752D /* TiledView.h */,
+				D3378A88228EA3310043752D /* TiledView.m */,
+				D3378A8A228EA46F0043752D /* TiledUtility.h */,
+				D3378A8B228EA46F0043752D /* TiledUtility.m */,
+				D3378A8D228EAA250043752D /* TiledSetting.h */,
+				D3378A8E228EAA250043752D /* TiledSetting.m */,
+				D3378A58228EA1960043752D /* Main.storyboard */,
+				D3378A5B228EA1980043752D /* Assets.xcassets */,
+				D3378A5D228EA1980043752D /* LaunchScreen.storyboard */,
+				D3378A60228EA1980043752D /* Info.plist */,
+				D3378A61228EA1980043752D /* main.m */,
+				D3378A84228EA26C0043752D /* Resource */,
+			);
+			path = TiledLayerDemo;
+			sourceTree = "<group>";
+		};
+		D3378A6A228EA1980043752D /* TiledLayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3378A6B228EA1980043752D /* TiledLayerDemoTests.m */,
+				D3378A6D228EA1980043752D /* Info.plist */,
+			);
+			path = TiledLayerDemoTests;
+			sourceTree = "<group>";
+		};
+		D3378A75228EA1980043752D /* TiledLayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3378A76228EA1980043752D /* TiledLayerDemoUITests.m */,
+				D3378A78228EA1980043752D /* Info.plist */,
+			);
+			path = TiledLayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		D3378A84228EA26C0043752D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D3378A85228EA2770043752D /* large.jpg */,
+				D3ACBC6F228EB97300D1D568 /* china.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3378A4E228EA1960043752D /* TiledLayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3378A7B228EA1980043752D /* Build configuration list for PBXNativeTarget "TiledLayerDemo" */;
+			buildPhases = (
+				826316DBC17DA8FA335FB892 /* [CP] Check Pods Manifest.lock */,
+				D3378A4B228EA1960043752D /* Sources */,
+				D3378A4C228EA1960043752D /* Frameworks */,
+				D3378A4D228EA1960043752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiledLayerDemo;
+			productName = TiledLayerDemo;
+			productReference = D3378A4F228EA1960043752D /* TiledLayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3378A66228EA1980043752D /* TiledLayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3378A7E228EA1980043752D /* Build configuration list for PBXNativeTarget "TiledLayerDemoTests" */;
+			buildPhases = (
+				7B07DFA306DA1D6FFE1DFC98 /* [CP] Check Pods Manifest.lock */,
+				D3378A63228EA1980043752D /* Sources */,
+				D3378A64228EA1980043752D /* Frameworks */,
+				D3378A65228EA1980043752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3378A69228EA1980043752D /* PBXTargetDependency */,
+			);
+			name = TiledLayerDemoTests;
+			productName = TiledLayerDemoTests;
+			productReference = D3378A67228EA1980043752D /* TiledLayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3378A71228EA1980043752D /* TiledLayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3378A81228EA1980043752D /* Build configuration list for PBXNativeTarget "TiledLayerDemoUITests" */;
+			buildPhases = (
+				7497D3AF9712614C927A3EB1 /* [CP] Check Pods Manifest.lock */,
+				D3378A6E228EA1980043752D /* Sources */,
+				D3378A6F228EA1980043752D /* Frameworks */,
+				D3378A70228EA1980043752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3378A74228EA1980043752D /* PBXTargetDependency */,
+			);
+			name = TiledLayerDemoUITests;
+			productName = TiledLayerDemoUITests;
+			productReference = D3378A72228EA1980043752D /* TiledLayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3378A47228EA1960043752D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "谢雷";
+				TargetAttributes = {
+					D3378A4E228EA1960043752D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D3378A66228EA1980043752D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D3378A4E228EA1960043752D;
+					};
+					D3378A71228EA1980043752D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D3378A4E228EA1960043752D;
+					};
+				};
+			};
+			buildConfigurationList = D3378A4A228EA1960043752D /* Build configuration list for PBXProject "TiledLayerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3378A46228EA1960043752D;
+			productRefGroup = D3378A50228EA1960043752D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3378A4E228EA1960043752D /* TiledLayerDemo */,
+				D3378A66228EA1980043752D /* TiledLayerDemoTests */,
+				D3378A71228EA1980043752D /* TiledLayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3378A4D228EA1960043752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3378A5F228EA1980043752D /* LaunchScreen.storyboard in Resources */,
+				D3ACBC70228EB97300D1D568 /* china.jpg in Resources */,
+				D3378A5C228EA1980043752D /* Assets.xcassets in Resources */,
+				D3378A86228EA2770043752D /* large.jpg in Resources */,
+				D3378A5A228EA1960043752D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3378A65228EA1980043752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3378A70228EA1980043752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7497D3AF9712614C927A3EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiledLayerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B07DFA306DA1D6FFE1DFC98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiledLayerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826316DBC17DA8FA335FB892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiledLayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3378A4B228EA1960043752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38AB455228EB3C3001803F7 /* TiledViewController.m in Sources */,
+				D38AB458228EB40B001803F7 /* NormalViewController.m in Sources */,
+				D3378A57228EA1960043752D /* ViewController.m in Sources */,
+				D3378A8F228EAA250043752D /* TiledSetting.m in Sources */,
+				D3378A8C228EA46F0043752D /* TiledUtility.m in Sources */,
+				D3378A62228EA1980043752D /* main.m in Sources */,
+				D3378A54228EA1960043752D /* AppDelegate.m in Sources */,
+				D3378A89228EA3310043752D /* TiledView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3378A63228EA1980043752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3378A6C228EA1980043752D /* TiledLayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3378A6E228EA1980043752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3378A77228EA1980043752D /* TiledLayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3378A69228EA1980043752D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3378A4E228EA1960043752D /* TiledLayerDemo */;
+			targetProxy = D3378A68228EA1980043752D /* PBXContainerItemProxy */;
+		};
+		D3378A74228EA1980043752D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3378A4E228EA1960043752D /* TiledLayerDemo */;
+			targetProxy = D3378A73228EA1980043752D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3378A58228EA1960043752D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3378A59228EA1960043752D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3378A5D228EA1980043752D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3378A5E228EA1980043752D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3378A79228EA1980043752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3378A7A228EA1980043752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3378A7C228EA1980043752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5A64E5AE6898C46E5CEE70 /* Pods-TiledLayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7H627GN53;
+				INFOPLIST_FILE = TiledLayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conan.TiledLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3378A7D228EA1980043752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3195480CEE3A4C9BC6ED2CD /* Pods-TiledLayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7H627GN53;
+				INFOPLIST_FILE = TiledLayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conan.TiledLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3378A7F228EA1980043752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62185C678F710EADCBC574A7 /* Pods-TiledLayerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiledLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conan.TiledLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiledLayerDemo.app/TiledLayerDemo";
+			};
+			name = Debug;
+		};
+		D3378A80228EA1980043752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E29A6AE1D04E60FC0C55442 /* Pods-TiledLayerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiledLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conan.TiledLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiledLayerDemo.app/TiledLayerDemo";
+			};
+			name = Release;
+		};
+		D3378A82228EA1980043752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E658B2F2CF7FFED0B493714 /* Pods-TiledLayerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiledLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conan.TiledLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiledLayerDemo;
+			};
+			name = Debug;
+		};
+		D3378A83228EA1980043752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4679CC24117E5B923DD69EC2 /* Pods-TiledLayerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiledLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conan.TiledLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiledLayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3378A4A228EA1960043752D /* Build configuration list for PBXProject "TiledLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3378A79228EA1980043752D /* Debug */,
+				D3378A7A228EA1980043752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3378A7B228EA1980043752D /* Build configuration list for PBXNativeTarget "TiledLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3378A7C228EA1980043752D /* Debug */,
+				D3378A7D228EA1980043752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3378A7E228EA1980043752D /* Build configuration list for PBXNativeTarget "TiledLayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3378A7F228EA1980043752D /* Debug */,
+				D3378A80228EA1980043752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3378A81228EA1980043752D /* Build configuration list for PBXNativeTarget "TiledLayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3378A82228EA1980043752D /* Debug */,
+				D3378A83228EA1980043752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3378A47228EA1960043752D /* Project object */;
+}
